@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<div class="partie1"><img src="/assets/commande.png" class="image">
+</div>
+<div class="container mt-5 partie2">
+  <h2>Ajouter une commande</h2>
+  <form>
+    <div class="form-group">
+      <input type="text" id="numcom" name="numCom" class="form-control" [(ngModel)]="commande.numCom" [ngModelOptions]="{standalone:true}" placeholder="Numéro de commande">
+    </div>
+    <div class="form-group">
+      <input type="date" id="datcom" name="dateCom" class="form-control" [(ngModel)]="commande.dateCom" placeholder="Date de commande">
+    </div>
+    <button type="submit" class="btn btn-primary" >ajouter</button>
+  </form>
+</div>
+</body>
+</html>

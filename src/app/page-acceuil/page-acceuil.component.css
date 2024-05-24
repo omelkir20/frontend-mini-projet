@@ -1,0 +1,22 @@
+h1{
+    font-family:Fantasy;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 100px;
+  }
+  .center{
+    text-align: center;
+  }
+  button.btn-primary{
+    margin-top: 40px;
+    background-color: #157D6B;
+    color:white;
+    margin-right: 20px;
+    border: 1px solid  #157D6B;
+  }
+  button.btn-primary:hover{
+    background-color: white;
+    color:  #157D6B;
+  
+  }
+  
